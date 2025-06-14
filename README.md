@@ -111,13 +111,14 @@ Make sure `users.db` exists in `src/user_database/` or gets created on first run
 
 ## 🛠️ Customization
 
-| What to Change         | File                                 | Variable Name         |
+| What to Change         | File                                 | Variable Name          |
 |------------------------|--------------------------------------|------------------------|
-| Page size              | `src/utils/constants.py`             | `PAGE_SIZE`           |
-| Max threads            | `multi_threading_service.py`         | `MAX_WORKERS`         |
-| Logging settings       | `global_logger/logger_config.py`     | Format & level         |
-| Timing decorator       | `utils/time_calculation.py`          | `@timeit`              |
-| DB path                | `db_config.py`                        | `DB_PATH` or URI       |
+| Page size              | `src/utils/constants.py`             | `PAGE_SIZE`            |
+| Max threads            | `src/utils/constants.py`             | `MAX_WORKERS`          |
+| Logging Formatting     | `src/global_logger/logger_config.py` | `formatter`            |
+| Logging Level          | `.env`                               | `ENV`                  |
+| Timing decorator       | `src/utils/time_calculation.py`      | `@execution_timer`     |
+| DB path                | `src/database_manager/db_config.py`  | `DB_FILE_PATH`         |
 
 ---
 
