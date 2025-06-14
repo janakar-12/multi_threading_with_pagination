@@ -1,7 +1,7 @@
 
 # ⚙️ Multi-threaded Pagination with ORM + SQLite
 
-A modular Python project combining **SQLAlchemy ORM**, **pagination**, and **multi-threading** to process and update large user datasets efficiently. Built with logging, timing decorators, and a clean architecture. User records will be created by the Python package **faker**.
+A modular Python project combining **SQLAlchemy ORM**, **DB Session Handler Decorator**, **Execution Time Calculator Decorator**, **Pagination**, and **Multi-Threading** to process and update large user datasets efficiently. Built with logging, timing decorators, and a clean architecture. User records will be created by the Python package **faker**.
 
 ---
 
@@ -66,6 +66,7 @@ project-root/
 - ✅ Pagination logic (customizable)
 - ✅ Multi-threading using `ThreadPoolExecutor`
 - ✅ Logger with thread-specific info
+- ✅ Decorator to handle DB session
 - ✅ Decorator to log execution time
 - ✅ Easy to customize and extend
 
