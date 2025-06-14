@@ -7,6 +7,7 @@ from src.database_manager.session_handler import with_session
 from src.database_manager.models import User
 from src.service.multi_threading_service import run_update
 from src.utils.time_calculation import execution_timer
+from src.utils.constants import FAKE_USER_COUNT
 
 logger = get_logger(__name__)
 
@@ -18,7 +19,7 @@ def init_db():
     @execution_timer
     @with_session
     def add_fake_users(session):
-        for _ in range(500):
+        for _ in range(FAKE_USER_COUNT):
             session.add(User(name=fake.name()))
 
     logger.info("Faker started creating fake users...")

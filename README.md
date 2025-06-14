@@ -1,7 +1,7 @@
 
 # ⚙️ Multi-threaded Pagination with ORM + SQLite
 
-A modular Python project combining **SQLAlchemy ORM**, **pagination**, and **multi-threading** to process and update large user datasets efficiently. Built with logging, timing decorators, and a clean architecture.
+A modular Python project combining **SQLAlchemy ORM**, **pagination**, and **multi-threading** to process and update large user datasets efficiently. Built with logging, timing decorators, and a clean architecture. User records will be created by the Python package **faker**.
 
 ---
 
@@ -115,6 +115,7 @@ Make sure `users.db` exists in `src/user_database/` or gets created on first run
 |------------------------|--------------------------------------|------------------------|
 | Page size              | `src/utils/constants.py`             | `PAGE_SIZE`            |
 | Max threads            | `src/utils/constants.py`             | `MAX_WORKERS`          |
+| Fake users count       | `src/utils/constants.py`             | `FAKE_USER_COUNT`      |
 | Logging Formatting     | `src/global_logger/logger_config.py` | `formatter`            |
 | Logging Level          | `.env`                               | `ENV`                  |
 | Timing decorator       | `src/utils/time_calculation.py`      | `@execution_timer`     |
