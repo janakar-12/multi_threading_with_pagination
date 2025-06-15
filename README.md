@@ -52,8 +52,8 @@ project-root/
 │       ├── time_calculation.py         # Decorator for measuring execution time
 │       └── __init__.py
 │
-├── .vscode/
-│   └── launch.json                     # VSCode run/debug config
+└── .vscode/
+    └── launch.json                     # VSCode run/debug config
 ```
 
 ---
