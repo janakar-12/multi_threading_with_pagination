@@ -45,7 +45,7 @@ project-root/
 │   │   └── __init__.py
 │   │
 │   ├── user_database/
-│   │   └── users.db                    # SQLite DB file
+│   │   └── users.db                    # SQLite DB file (created automatically if not exists)
 │   │
 │   └── utils/
 │       ├── constants.py                # Shared constants like PAGE_SIZE
@@ -54,7 +54,6 @@ project-root/
 │
 ├── .vscode/
 │   └── launch.json                     # VSCode run/debug config
-└── .venv/                              # Virtual environment (not checked in)
 ```
 
 ---
