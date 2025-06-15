@@ -24,7 +24,7 @@ project-root/
 │
 ├── .env                                # Environment variables
 ├── .gitignore                          # gitignore folders/files config
-├── run.py                              # 🚀 Main entry point
+├── run.py                              # Main entry point
 ├── requirements.txt                    # Python dependencies for the project
 ├── README.md                           # Project documentation
 │
