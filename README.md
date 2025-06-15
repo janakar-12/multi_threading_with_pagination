@@ -11,7 +11,7 @@ A modular Python project combining **SQLAlchemy ORM**, **DB Session Handler Deco
 - [🚀 Features](#-features)
 - [⚙️ Requirements](#️-requirements)
 - [🔧 Setup Instructions](#-setup-instructions)
-- [🏃 How to Run](#-how-to-run)
+- [🏃 How to Run Locally](#-how-to-run-locally)
 - [🛠️ Customization](#️-customization)
 - [🧪 Sample Output](#-sample-output)
 
